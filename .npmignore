@@ -7,3 +7,4 @@ testing.js
 .DS_Store
 coverage.html
 lib-cov
+.idea/

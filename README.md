@@ -2,6 +2,29 @@
 
 A set of tools that help in the building of fully restful API's on Node, Mongo and Express.
 
+##APIExpress
+kwaai.tools.apiexpress
+
+usage:
+```javascript
+var app=require('kwaai').tools.apiexpress.createApiExpress();
+```
+
+operation:
+preMW,validation,coercion,preActionMW,action,postMW
+
+###registerSchemaRoute(options,callback)
+options:
+* `schema'
+* `collection'
+* `roles'
+* `preMW'
+* `preCreateMW'
+* `preReadMW'
+* `preUpdateMW'
+* `preDeleteMW'
+* `postMW'
+
 ##Crud Tools
 kwaai.tools.crud
 usage:
@@ -21,6 +44,7 @@ options:
 * `collection`
 * `schema`
 * `query`
+* `rawQuery`
 * `limit`
 
 ###insert(options,callback)
@@ -51,3 +75,8 @@ options:
 * `id`
 * `query`
 * `data`
+
+
+##Web Crud Tools
+
+
