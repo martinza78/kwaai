@@ -1,6 +1,6 @@
 {
   "name": "kwaai",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Utilities to assist in creating restful api's using express and mongodb",
   "main": "./index.js",
   "author": {
@@ -27,6 +27,6 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/martinza78/kwaai",
-  "_id": "kwaai@0.1.6",
+  "_id": "kwaai@0.1.7",
   "_from": "kwaai@"
 }
