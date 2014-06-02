@@ -15,15 +15,15 @@ preMW,validation,coercion,preActionMW,action,postMW
 
 ###registerSchemaRoute(options,callback)
 options:
-* `schema'
-* `collection'
-* `roles'
-* `preMW'
-* `preCreateMW'
-* `preReadMW'
-* `preUpdateMW'
-* `preDeleteMW'
-* `postMW'
+* `schema`
+* `collection`
+* `roles`
+* `preMW`
+* `preCreateMW`
+* `preReadMW`
+* `preUpdateMW`
+* `preDeleteMW`
+* `postMW`
 
 ##Crud Tools
 kwaai.tools.crud
@@ -78,5 +78,5 @@ options:
 
 
 ##Web Crud Tools
-
+Kwaai web crud tools are a set of middleware that can be used to create fully restful api's. 
 
