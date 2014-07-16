@@ -1,6 +1,6 @@
 {
   "name": "kwaai",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Utilities to assist in creating restful api's using express and mongodb",
   "main": "./index.js",
   "author": {
@@ -18,16 +18,16 @@
     "passport": "~0.2.0",
     "passport-http": "~0.2.2",
     "password-hash-and-salt": "^0.1.2",
-    "kwaai-crud":"~0.0.2",
+    "kwaai-crud":"~0.0.3",
     "kwaai-schema":"~0.0.1",
-    "kwaai-mongo":"~0.0.2",
-    "kwaai-crudware":"~0.0.2"
+    "kwaai-mongo":"~0.0.3",
+    "kwaai-crudware":"~0.0.3"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/martinza78/kwaai",
-  "_id": "kwaai@0.1.10",
+  "_id": "kwaai@0.1.11",
   "_from": "kwaai@"
 }
